@@ -1,0 +1,13 @@
+venv/
+venv_tf/
+env/
+.env
+
+__pycache__/
+*.pyc
+
+*.h5
+
+.vscode/
+
+.idea/
