@@ -68,13 +68,14 @@ while True:
     # Processed input visualization (Debug View)
     cv2.imshow("Debug - Model Input", img)
     
-    # Dimension adjustment to tensor format (Batch, Height, Width, Channels)
+    # Dimension adjustment to tensor format (Batch_size, Height, Width, Channels)
     img = img.reshape(1, IMAGE_DIMENSIONS[0], IMAGE_DIMENSIONS[1], 1)
 
     # =================================================
     # INFERENCE
     # =================================================
     predictions = model.predict(img, verbose=0)
+    # Extracting highest probability and corresponding class index
     indexVal = np.argmax(predictions)
     probabilityValue = np.amax(predictions)
 

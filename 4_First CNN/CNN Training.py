@@ -75,6 +75,7 @@ if len(images) == 0:
 # ==========================================
 # 2. DATA SPLIT
 # ==========================================
+# The variables y_train and y_test represent the labels for the training and test images, respectively.
 X_train, X_test, y_train, y_test = train_test_split(images, classNo, test_size=TEST_RATIO)
 X_train, X_validation, y_train, y_validation = train_test_split(X_train, y_train, test_size=VAL_RATIO)
 
@@ -107,9 +108,11 @@ dataGen = ImageDataGenerator(
     width_shift_range=0.1,
     height_shift_range=0.1,
     zoom_range=0.2,
+    # Tilt the image
     shear_range=0.1,
     rotation_range=10
 )
+# Fit the generator to training data
 dataGen.fit(X_train)
 
 # One-hot encoding of labels
