@@ -1,5 +1,6 @@
 venv/
 venv_tf/
+venv_pytorch/
 env/
 .env
 
@@ -11,3 +12,8 @@ __pycache__/
 .vscode/
 
 .idea/
+
+*.pt
+*.pth
+*.onnx
+*.engine

@@ -19,6 +19,7 @@ The goal is to build a solid foundation for advanced research and a future Maste
 | **[2_Haarcascade](./2_Haarcascade)** | Object detection using Haar feature-based cascade classifiers (Face detection, Eye detection, and custom training). | `OpenCV` |
 | **[3_MediaPipe](./3_MediaPipe)** | Real-time tracking solutions (Hand Tracking, Pose Estimation, Face Mesh) utilizing Google's MediaPipe framework. | `MediaPipe` `OpenCV` |
 | **[4_First CNN](./4_First%20CNN)** | **[Featured Project]** Real-time emotion/gesture classification pipeline using a custom CNN trained on a self-captured dataset. | `TensorFlow` `Keras` |
+| **[5_YOLO](./5_YOLO)** | Real-time object detection using YOLO (yolov8) | `PyTorch` `YOLO` |
 
 ## 🛠️ Technologies & Tools
 
@@ -55,7 +56,7 @@ My planned learning path for future updates:
 - [x] Landmark Detection (MediaPipe Hands/Pose)
 - [x] CNNs for Classification (Custom Architectures)
 - [ ] Transfer Learning (VGG16, ResNet, MobileNet)
-- [ ] Object Detection with Deep Learning (YOLO, SSD)
+- [x] Object Detection with Deep Learning (YOLO, SSD)
 - [ ] Semantic Segmentation (U-Net)
 - [ ] Generative Adversarial Networks (GANs)
 
