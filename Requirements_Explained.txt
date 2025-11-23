@@ -1,7 +1,8 @@
-# requirements 1 and 2
+# requirements 1, 2, and 4
 
 opencv-contrib-python==4.12.0.88
 numpy>=1.26.0
+pytesseract>=0.3.13
 
 # requirements 3
 
@@ -11,7 +12,13 @@ cvzone==1.6.1
 openpyxl==3.1.5
 numpy==1.26.4
 
-# requirements 4
+# requirements 5
+
+deepface
+tf-keras
+opencv-python
+
+# requirements 6
 
 tensorflow==2.20.0
 opencv-contrib-python==4.12.0.88
@@ -21,7 +28,7 @@ scikit-learn==1.7.2
 keras==3.12.0
 h5py==3.15.1
 
-# requirements 5
+# requirements 7
 
 ultralytics==8.3.230
 opencv-python==4.12.0.88

@@ -18,8 +18,10 @@ The goal is to build a solid foundation for advanced research and a future Maste
 | **[1_OpenCV Fundamentals](./1_OpenCV%20Fundamentals)** | Basic image processing techniques: reading images, color spaces, thresholds, contours, and drawing functions. | `OpenCV` `NumPy` |
 | **[2_Haarcascade](./2_Haarcascade)** | Object detection using Haar feature-based cascade classifiers (Face detection, Eye detection, and custom training). | `OpenCV` |
 | **[3_MediaPipe](./3_MediaPipe)** | Real-time tracking solutions (Hand Tracking, Pose Estimation, Face Mesh) utilizing Google's MediaPipe framework. | `MediaPipe` `OpenCV` |
-| **[4_First CNN](./4_First%20CNN)** | **[Featured Project]** Real-time emotion/gesture classification pipeline using a custom CNN trained on a self-captured dataset. | `TensorFlow` `Keras` |
-| **[5_YOLO](./5_YOLO)** | Real-time object detection using YOLO (yolov8) | `PyTorch` `YOLO` |
+| **[4_OCR Tesseract](./4_OCR%20Tesseract)** | Optical Character Recognition (OCR) pipeline to extract and digitize text from images using the Pytesseract wrapper. | `pytesseract` `OpenCV` |
+| **[5_Facial Recognition](./5_Facial%20Recognition)** | Face identification and verification system using the DeepFace framework (wrapping VGG-Face/FaceNet models). | `DeepFace` `OpenCV` |
+| **[6_First CNN](./6_First%20CNN)** | **[Featured Project]** Real-time emotion/gesture classification pipeline using a custom CNN trained on a self-captured dataset. | `TensorFlow` `Keras` |
+| **[7_YOLO](./7_YOLO)** | State-of-the-art real-time object detection implementation using the YOLOv8 architecture. | `PyTorch` `YOLOv8` |
 
 ## 🛠️ Technologies & Tools
 
