@@ -2,6 +2,7 @@ venv/
 venv_tf/
 venv_pytorch/
 venv_tf_keras/
+venv_SAM3/
 env/
 .env
 
